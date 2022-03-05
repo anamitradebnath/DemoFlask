@@ -27,7 +27,7 @@ jobs:
       # Install dependencies 
       - name: Install dependencies
         run: |
-          python3 -m pip install --upgrade pip3
+          sudo apt install python3-pip
           pip3 install -r requirements.txt
 
       # Run our unit test
