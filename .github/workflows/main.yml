@@ -33,5 +33,7 @@ jobs:
       # Run our unit test
       - name: Run unit tests
         run: |
+          echo 'present working directory'
+          echo pwd
           python3 ./../..test_app.py
       
